@@ -1,0 +1,85 @@
+---
+title: Stockor Open Source
+description: The home for open-source stockor
+layout: default
+cssclass: os-progress
+---
+<h3>Stockor is now Free Software ...</h3>
+
+<p class="lead">
+  <a href="http://argosity.com/">Argosity</a> is in the processes of open-sourcing their crown jewel, <a href="http://stockor.com/">Stockor.</a>
+</p><p>
+  Stockor is a ERP system that contains all the tools you'll need to run a small to medium sized business on the internet.  We're slowing extracting the code from our monolithic Rails app and splitting it into separate gems and engines.
+</p><p>
+Follow our progress below. <a href="/about">Learn more about Stockor and Argosity</a>
+</p>
+
+<div class="alert alert-success">
+  Want to see the gauge go up faster? Got a business issue that needs addressed TODAY? <a href="#" class="contact-us">Let us know</a>
+</div>
+
+
+<div class="work-unit top">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <div class="summary ellipsis">
+    </div>
+  </div>
+</div>
+
+
+<div class="work-unit">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <p><b>Plugins</b>; Mailing Lists, Barcoding, iOS Point of Sale app, &amp; Amazon Integration.</p>
+    <p>As part of the open-sourcing effort, we're going to split off anything that's not core into plugins.  We'll also going to make sure they are well documented and provide a clear example of how to extend Stockor.</p>
+  </div>
+</div>
+
+
+<div class="work-unit">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <p><b>E-commerce Website</b>. Built in coffee-script using Backbonejs with Bootstrap UI. [<a href="http://stockor.com/demo">stockor.com demo</a>]</p>
+  </div>
+</div>
+
+
+<div class="work-unit">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <p><b>Workspace</b> a Rails Engine serving the Ext JS application.  Consists of a Tab-based UI with around 50 screens. [<a href="http://stockor.com/demo">stockor.com demo</a>]</p>
+  </div>
+</div>
+
+
+<div class="work-unit">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <p><b>API</b>: a Rails Engine with ~ 60 REST endpoints.   It's a thin JSON layer over the Stockor core gem.</p>
+  </div>
+</div>
+
+
+{{#core.all }}
+{{>step}}
+{{/core.all }}
+
+<div class="work-unit bottom comp">
+  <div class="prg">
+  </div>
+  <div class="txt">
+    <div class="summary ellipsis">
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-info dotorgsrc">
+  Psst... This website is also open-source and can be viewed
+  <a href="https://github.com/argosity/stockor-dotorg">on GitHub</a>
+</div>
