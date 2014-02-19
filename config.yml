@@ -1,0 +1,15 @@
+production_url: 'http://nathan.stitt.org'
+
+core:
+  summary_lines: 1
+  sort: ["date", "desc"]
+  layout: "core"
+
+asset_pipeline:
+  enable: true
+
+posts:
+  sort: ["date", "desc"]
+
+images:
+  use: static

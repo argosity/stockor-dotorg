@@ -1,0 +1,4 @@
+rsync:
+  user: stockor
+  host: stockor.org
+  destination: /srv/www/stockor.org
