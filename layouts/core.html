@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+{{{ content }}}
+{{#page.commit}}
+[<a href="https://github.com/argosity/skr-core/commit/{{page.commit}}">github commit</a>]
+{{/page.commit}}
