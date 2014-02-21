@@ -5,6 +5,11 @@ core:
   sort: ["date", "desc"]
   layout: "core"
 
+widgets:
+    analytics:
+      use: google
+      tracking_id: 'UA-44612247-3'
+
 asset_pipeline:
   enable: true
 
