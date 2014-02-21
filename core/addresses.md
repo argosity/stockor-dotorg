@@ -1,5 +1,6 @@
 ---
 date: '2014-02-20'
+commit: ab1e5ad1521f2ad604306dbff3f627c187dae0b3
 ---
 **Addresses** are a basic building block of Stockor.  Most entities in the system have links to one or more of them.
 

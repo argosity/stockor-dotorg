@@ -1,5 +1,6 @@
 ---
-date: '2014-02-22'
+date: '2014-02-20'
+commit: 591f7a51ec35398a5c4406f5277ea5371b00a61b
 ---
 **Customers**  Companies (*or individuals*) you that purchase things from you.  A customer has both a shipments and payments address, a gl account that payments should be applied against, and a payment term.
 
