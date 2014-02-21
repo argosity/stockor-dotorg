@@ -8,7 +8,7 @@ core:
 widgets:
     analytics:
       use: google
-      tracking_id: 'UA-44612247-3'
+      tracking_id: 'UA-44612247-4'
 
 asset_pipeline:
   enable: true
