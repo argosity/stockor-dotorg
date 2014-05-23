@@ -1,5 +1,6 @@
 ---
 date: '2014-02-25'
+commit: 79bcf4660392c34cd9b12feca15a85349cb37d43
 ---
 **Sales Orders**  A Sales Order (often abbreviated as SO) is a record of a request by a [Customer](customers) to purchase [SKUs](skus-and-locations).
 

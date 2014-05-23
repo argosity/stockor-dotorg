@@ -1,5 +1,6 @@
 ---
 date: '2014-02-26'
+commit: 9d397643ea7c78d23ccbe9ff86b2403c1f1901f9
 ---
 **Invoices**  constitute a demand for payment for goods that have been delivered to a [Customer](customers).
 

@@ -1,5 +1,6 @@
 ---
 date: '2014-02-24'
+commit: 5ad80b224052f32be7daaabf1904fdd4871c805e
 ---
 **Purchase Orders**  A Purchase Order (often abbreviated as PO) is a record of a request to purchase a product from a Vendor.  It contains one or more SKUs, the quantity desired for each and the price offered for them.
 

@@ -1,5 +1,6 @@
 ---
 date: '2014-02-23'
+commit: 48bf1c034ad714e55e98d439cb9c42905b73d2be
 ---
 **SKUs and their Locations**  A Stock Keeping Unit (SKU) is a distinct *thing*, such as a product or service that is offered for sale.  A SKU does not have to be a physical item, often things such as *LABOR* or *INSTALLATION* are also created as SKU's so they can be easily tracked on sales.
 
