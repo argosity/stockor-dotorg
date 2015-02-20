@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stockor ERP system</title>
+
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/images/favicon.ico" />
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+</head>
+
+  <body>
+    <div class="feature">
+      <h3><a href="/"><img class="logo" src="/images/logo.png" width="150" height="50" alt="Stockor Logo"></a>Sales Orders</h3>
+      <hr>
+  <p><strong>Sales Orders</strong>  A Sales Order (often abbreviated as SO) is a record of a request by a <a href="customers">Customer</a> to purchase <a href="skus-and-locations">SKUs</a>.</p>
+
+<p>It contains:</p>
+
+<ul>
+  <li>The customer’s contact information.  Stockor records both a billing and shipping <a href="addresses">Address</a>.</li>
+  <li>An <a href="skus-and-locations">inventory location</a> that goods will be taken from.</li>
+  <li>A Purchase Order Number (PONUM) that was provided by the customer.</li>
+  <li><a href="payment-terms">Payment Terms</a> for the order.</li>
+  <li>One or more SKUs, the quantity desired for each and the selling price for them.</li>
+</ul>
+
+<p>The terms and addresses default to the values specified for the customer, but may be over-ridden on a per-order basis.</p>
+
+<p>Like <a href="purchase-orders">Purchase Orders</a>, SO’s transition through a list of standard steps:</p>
+
+<ul>
+  <li>They begin as <em>Saved</em></li>
+  <li>If the order needs to be picked from a warehouse, a Pick Ticket can be generated for the order.  The state will then be <em>Picking</em>.</li>
+  <li>Once the order is ready for shipping, delivery, or is picked up, an <a href="invoices">Invoice</a> is generated.  The order will then be in the final state: <em>Invoiced</em></li>
+</ul>
+
+    </div>
+  </body>
+</html>

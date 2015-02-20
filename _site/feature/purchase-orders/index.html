@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stockor ERP system</title>
+
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/images/favicon.ico" />
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+</head>
+
+  <body>
+    <div class="feature">
+      <h3><a href="/"><img class="logo" src="/images/logo.png" width="150" height="50" alt="Stockor Logo"></a>Purchase Orders</h3>
+      <hr>
+  <p><strong>Purchase Orders</strong>  A Purchase Order (often abbreviated as PO) is a record of a request to purchase a product from a Vendor.  It contains one or more SKUs, the quantity desired for each and the price offered for them.</p>
+
+<p>A Purchase Order progresses through set stages:</p>
+
+<ul>
+  <li>It starts of as simply <em>Saved</em>  This state indicates that the PO has been saved but no further action has been under-taken.</li>
+  <li>Once it has been sent to the <a href="vendors">Vendor</a>, it transitions to <em>Sent</em>.</li>
+  <li>Once a confirmation has been received from the vendor it becomes <em>Confirmed</em>  At this point the PO may be considered a legal contract between the Company and the Vendor.</li>
+  <li>Once the ordered <a href="skus-and-locations">SKUs</a> are received, the PO will be marked as either <em>Partial</em> or <em>Complete</em>.  A Voucher is  then created from the Purchase Order.</li>
+</ul>
+
+<h5 id="vouchers">Vouchers</h5>
+
+<p>A voucher is a record that the Company owes a vendor funds.  Like Purchase orders they transition through states; <em>Pending</em>, <em>Paid</em> and <em>In Dispute</em></p>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stockor ERP system</title>
+
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/images/favicon.ico" />
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+</head>
+
+  <body>
+    <div class="feature">
+      <h3><a href="/"><img class="logo" src="/images/logo.png" width="150" height="50" alt="Stockor Logo"></a>Vendors</h3>
+      <hr>
+  <p><strong>Invoices</strong>  constitute a demand for payment for goods that have been delivered to a <a href="customers">Customer</a>.</p>
+
+<p>A invoice contains:</p>
+
+<ul>
+  <li>Customer contact information</li>
+  <li>An <a href="skus-and-locations">inventory location</a> that goods will be taken from.</li>
+  <li>The customer provided Purchase Order Number</li>
+  <li>The <a href="payment-terms">Payment Terms</a> that were extended.  This will control how much time the Customer has to pay the invoice in full.</li>
+  <li>One or more SKUs, the quantity desired for each and the selling price for them.</li>
+</ul>
+
+<p>While an Invoice often originates with a <a href="sales-orders">Sales Order</a>, it does not have to.  Sales that take place in a retail environment where the customer selects the goods and pays for them immediately do not require a sales order record.  For instance, the Stockor Point of Sale iOS application does not generate Sales Orders.</p>
+
+<p>Once an invoice is saved, it immediately removes the SKUs from the inventory location and generates corresponding <a href="general-ledger">General Ledger</a> entries debiting the asset account and crediting the customers receivables account.</p>
+
+<p>When payment is received against the Invoice, the receivables account is debited and the payments holding account is credited.</p>
+
+    </div>
+  </body>
+</html>

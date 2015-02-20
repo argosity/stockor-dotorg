@@ -1,0 +1,33 @@
+<p><strong>SKUs and their Locations</strong>  A Stock Keeping Unit (SKU) is a distinct <em>thing</em>, such as a product or service that is offered for sale.  A SKU does not have to be a physical item, often things such as <em>LABOR</em> or <em>INSTALLATION</em> are also created as SKU’s so they can be easily tracked on sales.</p>
+
+<h5 id="skus">SKUs</h5>
+
+<p>A few of the more important attributes for a SKU are:</p>
+
+<ul>
+  <li>A General Ledger revenue and Asset account.</li>
+  <li>One or more Vendors that can provide the SKU.  One of the vendors is listed as the <em>Default</em> vendor and will be selected first for proposed re-stock <a href="purchase-orders">Purchase Orders</a></li>
+  <li>One or more Units of Measure (UOM).
+    <ul>
+      <li>A UOM is a combination of a short code such as EA, CASE, or BOX and a size.  The UOM is typically abbreviated as CASE/24 or BOX/12. The size is not shown if it’s one (1).  Therefore EA wouldn’t be shown as EA/1, but just as EA.</li>
+      <li>SKUs pricing is based off the UOM.  Often times a business will offer dicounts for purchasing a larger UOM.</li>
+      <li>A UOM also has dimensions; Height, Width, &amp; Depth.</li>
+    </ul>
+  </li>
+  <li>One or more Locations.</li>
+</ul>
+
+<h5 id="locations">Locations</h5>
+
+<p>Stockor is a multi-location system.  It encourages setting up separate locations and keeping goods separated by location.  Locations do not have to be a physical location, often times it might make business sense to segregate SKUs by business units or even by processing stage.</p>
+
+<p>A SKU Location tracks:</p>
+
+<ul>
+  <li>The quantity that is on hand.</li>
+  <li>The quantity that is allocated.  Stockor is a real-time inventory system.  When a Sales Order is placed, it will attempt to reserve the quantity to it by increasing the location’s allocated count.  The allocation is released and on-hand quantity lowered when the SKU is shipped.</li>
+  <li>The cost of the SKU.  Stockor uses the Moving Average Cost method of calculating cost for each SKU.</li>
+  <li>A BIN location.  When a Sales Order is being shipped, a Pick Ticket is generated for the items that will print in BIN order for maximum picking efficiency.</li>
+</ul>
+
+<p><strong>See Also:</strong>  Wikipedia has a good article on what a SKU is and how they’re used:  http://en.wikipedia.org/wiki/Stock-keeping_unit</p>

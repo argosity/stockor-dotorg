@@ -487,3 +487,8 @@ footer {
 .footer .credit {
   float: right;
   margin: 5px; }
+
+body > .feature {
+  margin: 25px; }
+  body > .feature .logo {
+    vertical-align: bottom; }

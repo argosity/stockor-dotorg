@@ -11,3 +11,26 @@ highlighter: pygments
 # Permalinks
 permalink: pretty
 relative_permalinks: true
+
+
+collections:
+  features:
+    output: true
+    permalink: /feature/:title/
+  
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - Rakefile
+ - contact_form.rb
+ - config.ru
+ - tmp
+ - public
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "features" 
+    values:
+      layout: "features"

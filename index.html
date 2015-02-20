@@ -35,7 +35,12 @@ layout: base
           <li>Mobile friendly</li>
           <li>Released under the open-source Affero GPL 3 license</li>
         </ul>
-
+        <h3>Additional Details</h3>
+        <ul>
+        {% for feature in site.features %}
+            <li><a href="{{feature.url}}">{{ feature.title }}</a></li>
+      {% endfor %}
+        </ul>
         <p>
           Currently the back-end data-models are complete, and work is progressing on the front-end user interface.
         </p>
