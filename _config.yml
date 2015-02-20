@@ -1,0 +1,13 @@
+# general configuration
+
+baseurl: ''
+sass:
+    sass_dir: assets
+
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
